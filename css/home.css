@@ -1,0 +1,40 @@
+.header {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	padding: 10px;
+	height: 15vh;
+}
+
+.logo {
+	background-image: url(../images/logo2.png);
+	background-position: center-left;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	grid-gap: 2px;
+	padding: 10px;	
+	color: black;
+	border: 3px black solid;
+	font-family: Bebas Neue;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url(../images/body.png);
+	background-size: cover;
+}
